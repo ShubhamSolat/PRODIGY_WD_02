@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stopclock.css">
+    <title>Stopclock</title>
+</head>
+<body>
+    <div class="container">
+        <div class="clock">00:00:00</div>
+        <div class="buttons">
+            <button onclick="startclock()">Start</button>
+            <button onclick="stopclock()">Pause</button>
+            <button onclick="resetclock()">Reset</button>
+            <button onclick="lapTime()">Lap</button>
+        </div>
+        <div class="laps">
+            <h3>Lap Times</h3>
+            <ul id="lapTimes"></ul>
+        </div>
+    </div>
+    <script src="stopclock.js"></script>
+</body>
+</html>
